@@ -18,6 +18,8 @@
 		F414D2E22C21C0EF007F40B0 /* SpracyShooterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F414D2E12C21C0EF007F40B0 /* SpracyShooterTests.swift */; };
 		F414D2EC2C21C0EF007F40B0 /* SpracyShooterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F414D2EB2C21C0EF007F40B0 /* SpracyShooterUITests.swift */; };
 		F414D2EE2C21C0EF007F40B0 /* SpracyShooterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F414D2ED2C21C0EF007F40B0 /* SpracyShooterUITestsLaunchTests.swift */; };
+		F414D2FB2C21CDDC007F40B0 /* whizzby-41134.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F414D2FA2C21CDDB007F40B0 /* whizzby-41134.mp3 */; };
+		F414D3002C2208E2007F40B0 /* explosionSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F414D2FF2C2208E2007F40B0 /* explosionSound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,9 @@
 		F414D2E72C21C0EF007F40B0 /* SpracyShooterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpracyShooterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F414D2EB2C21C0EF007F40B0 /* SpracyShooterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpracyShooterUITests.swift; sourceTree = "<group>"; };
 		F414D2ED2C21C0EF007F40B0 /* SpracyShooterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpracyShooterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F414D2FA2C21CDDB007F40B0 /* whizzby-41134.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "whizzby-41134.mp3"; path = "../../../../Downloads/whizzby-41134.mp3"; sourceTree = "<group>"; };
+		F414D2FC2C21CDEF007F40B0 /* whizzby-41134.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "whizzby-41134.mp3"; sourceTree = "<group>"; };
+		F414D2FF2C2208E2007F40B0 /* explosionSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosionSound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +111,8 @@
 				F414D2C92C21C0EC007F40B0 /* GameScene.sks */,
 				F414D2CB2C21C0EC007F40B0 /* Actions.sks */,
 				F414D2CD2C21C0EC007F40B0 /* GameScene.swift */,
+				F414D2FF2C2208E2007F40B0 /* explosionSound.mp3 */,
+				F414D2FC2C21CDEF007F40B0 /* whizzby-41134.mp3 */,
 				F414D2CF2C21C0EC007F40B0 /* GameViewController.swift */,
 				F414D2D12C21C0EC007F40B0 /* Main.storyboard */,
 				F414D2D42C21C0EF007F40B0 /* Assets.xcassets */,
@@ -127,6 +134,7 @@
 			children = (
 				F414D2EB2C21C0EF007F40B0 /* SpracyShooterUITests.swift */,
 				F414D2ED2C21C0EF007F40B0 /* SpracyShooterUITestsLaunchTests.swift */,
+				F414D2FA2C21CDDB007F40B0 /* whizzby-41134.mp3 */,
 			);
 			path = SpracyShooterUITests;
 			sourceTree = "<group>";
@@ -235,11 +243,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F414D2FB2C21CDDC007F40B0 /* whizzby-41134.mp3 in Resources */,
 				F414D2CA2C21C0EC007F40B0 /* GameScene.sks in Resources */,
 				F414D2D32C21C0EC007F40B0 /* Base in Resources */,
 				F414D2D52C21C0EF007F40B0 /* Assets.xcassets in Resources */,
 				F414D2CC2C21C0EC007F40B0 /* Actions.sks in Resources */,
 				F414D2D82C21C0EF007F40B0 /* Base in Resources */,
+				F414D3002C2208E2007F40B0 /* explosionSound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
