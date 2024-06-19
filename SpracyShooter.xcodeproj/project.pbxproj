@@ -20,6 +20,7 @@
 		F414D2EE2C21C0EF007F40B0 /* SpracyShooterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F414D2ED2C21C0EF007F40B0 /* SpracyShooterUITestsLaunchTests.swift */; };
 		F414D2FB2C21CDDC007F40B0 /* whizzby-41134.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F414D2FA2C21CDDB007F40B0 /* whizzby-41134.mp3 */; };
 		F414D3002C2208E2007F40B0 /* explosionSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F414D2FF2C2208E2007F40B0 /* explosionSound.mp3 */; };
+		F414D3042C23435B007F40B0 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F414D3032C23435B007F40B0 /* GameOverView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		F414D2FA2C21CDDB007F40B0 /* whizzby-41134.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "whizzby-41134.mp3"; path = "../../../../Downloads/whizzby-41134.mp3"; sourceTree = "<group>"; };
 		F414D2FC2C21CDEF007F40B0 /* whizzby-41134.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "whizzby-41134.mp3"; sourceTree = "<group>"; };
 		F414D2FF2C2208E2007F40B0 /* explosionSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosionSound.mp3; sourceTree = "<group>"; };
+		F414D3032C23435B007F40B0 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				F414D2D12C21C0EC007F40B0 /* Main.storyboard */,
 				F414D2D42C21C0EF007F40B0 /* Assets.xcassets */,
 				F414D2D62C21C0EF007F40B0 /* LaunchScreen.storyboard */,
+				F414D3032C23435B007F40B0 /* GameOverView.swift */,
 			);
 			path = SpracyShooter;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			files = (
 				F414D2CE2C21C0EC007F40B0 /* GameScene.swift in Sources */,
 				F414D2D02C21C0EC007F40B0 /* GameViewController.swift in Sources */,
+				F414D3042C23435B007F40B0 /* GameOverView.swift in Sources */,
 				F414D2C82C21C0EC007F40B0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
